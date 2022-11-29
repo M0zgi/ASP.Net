@@ -4,7 +4,22 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="align-text-top">
+    <h3>Задание 1.<br/>
+        Создайте и запустите базовое приложение ASP.NET Core, построенное на основании ASP.NET Razor Pages.<br />
+        В веб-странице выведите номер текущего дня в году.
+    </h3><br/>
+    <p>Date: @DateTime.Now.DayOfYear</p><br />
+    <h3>Задание 2.<br/>
+        Создайте и запустите базовое приложение ASP.NET Core, построенное на основании ASP.NET Razor Pages.<br />
+        В веб-странице в зависимости от случайного значения отображайте любую букву из английского алфавита.
+    </h3><br/>
+
+    @{
+        Random rand = new Random();
+        char letter = (char)rand.Next( 'A', 'Z' + 1 );
+    }
+
+    <p>Random letter: @letter.ToString()</p><br />
+
 </div>
