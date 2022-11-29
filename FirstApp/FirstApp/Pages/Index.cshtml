@@ -10,6 +10,7 @@
         В веб-странице выведите номер текущего дня в году.
     </h3><br/>
     <p>Date: @DateTime.Now.DayOfYear</p><br />
+
     <h3>Задание 2.<br/>
         Создайте и запустите базовое приложение ASP.NET Core, построенное на основании ASP.NET Razor Pages.<br />
         В веб-странице в зависимости от случайного значения отображайте любую букву из английского алфавита.
@@ -21,5 +22,61 @@
     }
 
     <p>Random letter: @letter.ToString()</p><br />
+    
+    <h3>Задание 3.<br/>
+        Создайте и запустите базовое приложение ASP.NET Core, построенное на основании ASP.NET Razor Pages.<br />
+        Добавьте к базовому приложению новую страницу. Страница должна отображать информацию о ресторане. Доступ к 
+        странице по ссылке в верхнем меню страницы.
+    </h3><br/>
+    <a class="link-primary" asp-area="" asp-page="/Restaurant">Restaurant</a><br /><br />
 
+    <h3>Задание 4.<br/>
+        Добавьте к заданию 2 отображение списка ресторанов. Используйте возможности CSS для форматирования списка.
+    </h3><br/>
+    
+    <div class="card-group">
+
+        <div class="card wrap_images" style="width: 18rem;">
+            <img src="~/img/new-location.jpg" class="card-img-top" alt="Mission BBQ">
+        <div class="card-body">
+            <h5 class="card-title">1. Mission BBQ</h5>
+            <p class="card-text">
+                “Lunch”<br />
+                “Cute cozy lunch.”</p>
+            <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
+        </div>
+    </div>
+
+        <div class="card wrap_images" style="width: 18rem;">
+            <img src="~/img/cd-cafe-inc.jpg" class="card-img-top" alt="Bollywood Masala">
+        <div class="card-body">
+            <h5 class="card-title">2. Bollywood Masala</h5>
+            <p class="card-text">“We had brisket, hubby had fries...they...”<br/>
+                “We had fries on the side.”</p>
+            <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
+        </div>
+    </div>
+
+        <div class="card wrap_images" style="width: 18rem;">
+            <img src="~/img/blue-wind-gourmet.jpg" class="card-img-top" alt="Blue Wind Gourmet">
+        <div class="card-body">
+            <h5 class="card-title">3. Blue Wind Gourmet</h5>
+            <p class="card-text">
+                “Awonderful dining experience”<br />
+                “Hot and spicy goodness!”</p>
+            <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
+        </div>
+    </div>
+    
+        <div class="card wrap_images" style="width: 18rem;">
+            <img src="~/img/photo1jpg.jpg" class="card-img-top" alt="CD Cafe">
+            <div class="card-body">
+                <h5 class="card-title">4. CD Cafe</h5>
+                <p class="card-text">
+                    “I got the crabcake and risotto.”<br />
+                    “We tried the lump crab risotto and...”</p>
+                <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
+            </div>
+        </div>
+        </div>
 </div>

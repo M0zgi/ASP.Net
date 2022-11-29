@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "G:\\VSProject\\ASP.Net\\FirstApp\\FirstApp\\wwwroot\\img\\blue-wind-gourmet.jpg",
+      "PackagePath": "staticwebassets\\img\\blue-wind-gourmet.jpg"
+    },
+    {
+      "Id": "G:\\VSProject\\ASP.Net\\FirstApp\\FirstApp\\wwwroot\\img\\cd-cafe-inc.jpg",
+      "PackagePath": "staticwebassets\\img\\cd-cafe-inc.jpg"
+    },
+    {
+      "Id": "G:\\VSProject\\ASP.Net\\FirstApp\\FirstApp\\wwwroot\\img\\new-location.jpg",
+      "PackagePath": "staticwebassets\\img\\new-location.jpg"
+    },
+    {
+      "Id": "G:\\VSProject\\ASP.Net\\FirstApp\\FirstApp\\wwwroot\\img\\photo1jpg.jpg",
+      "PackagePath": "staticwebassets\\img\\photo1jpg.jpg"
+    },
+    {
       "Id": "G:\\VSProject\\ASP.Net\\FirstApp\\FirstApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
